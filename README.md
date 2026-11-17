@@ -1,6 +1,6 @@
 # AI SOC Triage Assistant: Prompt Injection Defense
 
-This is an AI assistant that triages Splunk alerts and writes a verdict for a human analyst to approve. The twist: I attacked it with **prompt injections hidden in log data** and built defenses so the attacks get caught **even when the AI itself is fooled**.
+This is an AI assistant that triages Splunk alerts and writes a verdict for a human analyst to approve. The twist: I attacked it with **prompt injections hidden in log data** and built defenses so the attacks get caught **even when the AI itself is fooled**. I have implemented protection rules to prevent prompt injection on the AI that helps me triage incidents coming from Splunk.
 
 ## The problem
 
